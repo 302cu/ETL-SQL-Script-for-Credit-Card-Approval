@@ -2,10 +2,16 @@
 
 ## Overview
 
-This repository contains SQL scripts used for data analysis and cleanup of a `Clients` table. The scripts perform a variety of tasks, including data quality checks, null value handling, percentage calculations, and data enrichment.
+This repository contains SQL scripts designed for the analysis and cleanup of a `Clients` table. These scripts perform various tasks, including:
 
-### Data Source
-[Credit Card Approval]([URL](https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction/data?select=application_record.csv))
+- Data Quality Checks
+- Handling Null Values
+- Percentage Calculations
+- Data Enrichment
+
+## Data Source
+
+The dataset used for this analysis can be found at [Credit Card Approval Dataset](https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction/data?select=application_record.csv).
 
 ## Scripts
 
@@ -19,7 +25,7 @@ This repository contains SQL scripts used for data analysis and cleanup of a `Cl
 
 ### Percentage Calculations
 
-- **Objective:** Calculate percentages for various attributes such as gender, realty ownership, and income levels.
+- **Objective:** Calculate percentages for various attributes, such as gender, realty ownership, and income levels.
 
 ### Data Enrichment
 
@@ -27,8 +33,8 @@ This repository contains SQL scripts used for data analysis and cleanup of a `Cl
 
 ## Contributing
 
-Feel free to contribute by submitting pull requests or opening issues if you find any problems or have suggestions for improvements.
+Contributions are welcome! Please submit pull requests or open issues if you encounter any problems or have suggestions for improvement.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. For more details, see the [LICENSE](LICENSE) file.
